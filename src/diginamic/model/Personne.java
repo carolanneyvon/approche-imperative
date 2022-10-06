@@ -21,6 +21,31 @@ public class Personne {
 		int i = 53; // (base 10) 5*10+3
 		int j = 0xAF; // hexadecimal (base 16) 0,1,....9, A, B, C, ..., F
 		System.out.println(a);
+		
+		int nb = 8; // 8/2 = 4 et il reste 0 donc 8%2 est égal à 0
+		System.out.println(nb%2);
+		
+		nb++; // équivalent à nb = nb + 1
+		System.out.println(nb);
+		nb--;
+		System.out.println(nb);
+		
+		int x = 0;
+		int y = 1;
+		boolean resultat = (x >= 0) && (y < 1);
+		System.out.println(resultat);
+		
+		boolean comparaison1 = x >= 0;
+		System.out.println(comparaison1);
+		
+		boolean comparaison2 = y < 1;
+		System.out.println(comparaison2);
+		
+		boolean res = comparaison1 || comparaison2;
+		System.out.println("Résultat = " + res);
+		
+		boolean res2 = comparaison1 && comparaison2; // résultat true si comparaison1==true et comparaison2==true
+		System.out.println("Résultat 2 = " + res2);
 	}
 
 }
