@@ -1,0 +1,11 @@
+*.class
+# tous les fichiers en .class
+
+.classpath
+# le fichier .classpath
+
+.project
+# fichier généré par eclipse
+
+/.settings
+# exclu un repertoire donné
